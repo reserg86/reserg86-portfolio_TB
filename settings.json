@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 1,
+    "window.menuBarVisibility": "visible",
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "right",
+    "files.autoSave": "afterDelay",
+    "git.path": "",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.hover.enabled": false
+}
