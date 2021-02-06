@@ -1,5 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 
 .dark {
@@ -58,6 +59,11 @@ header {
     text-transform: uppercase;
 }
 
+.title-h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .photo {
     margin-bottom: 120px;
     width: 100%;
@@ -71,4 +77,39 @@ header {
 
 .nav-link:hover {
     color: #D40000;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin: 110px 0 60px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.project-img {
+    width: 16px;
+    height: 10px;
+    display: block;
+    background-image: url(../img/A_HomeP_1920/Arrow.svg);
+    margin-left: 15px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-item {
+    flex: 0 0 24%;
+}
+
+.description {
+    line-height: 150%;
 }
